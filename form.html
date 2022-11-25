@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <form action="">
+        1. Please select one of the following options regarding your current appointment: <input type="text"><br><br>
+
+        [The dropdown menu in Question 2 contain six choices: Astronomy; Biology; Chemistry; Computer Science;
+        Environmental Science; Physics] <br>
+        2. Which Department are you affiliated with:
+        <select name="choices" id="">
+            <option value="Astronomy">Astronomy</option>
+            <option value="Biology">Biology</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Environmental Science">Environmental Science</option>
+            <option value="Physics">Physics</option>
+        </select><br><br>
+        3. Please check any of the following e-resources that you have used in the past month:
+        <br>
+        <br>
+        <input type="checkbox" name="Google" id="">Google<br>
+        <input type="checkbox" name="Science Citation Index" id="">Science Citation Index<br>
+        <input type="checkbox" name="Georef" id="">Georef<br>
+        <input type="checkbox" name="INSPEC" id="">INSPEC<br>
+        <input type="checkbox" name="Biosis" id="">Biosis<br>
+        <input type="checkbox" name="PubMed" id="">PubMed<br>
+        <input type="checkbox" name="Science Direct" id="">Science Direct<br>
+        <input type="checkbox" name="Safari" id="">Safari<br><br>
+
+        [The following radio button sets have &lt;table&gt; &lt;td&gt; cell widths of 150 px each.] <br>
+        4. How often do you use Science Citation Index? At least: <br> <br>
+        
+    </form>
+    <form action="">
+        <table border="2" width="150px">
+            <tr>
+                <td> Never <br><input type="radio" name="never"></td>
+            </tr>
+            <tr>
+                <td> Once a semester <br><input type="radio" name="once a semester"></td>
+            </tr>
+            <tr>
+                <td> Never <br><input type="radio" name="never"></td>
+            </tr>
+            <tr>
+                <td> Never <br><input type="radio" name="never"></td>
+            </tr>
+            <tr>
+                <td> Never <br><input type="radio" name="never"></td>
+            </tr>
+        </table>
+    </form>
+
+
+
+    <!-- 5 -->
+    <form action="" style="background-color: #01d3ee; width: 600px;">
+        First Name <input type="text"><br> <br>
+        Middle Name <input type="text"><br> <br>
+        Last Name <input type="text"><br> <br>
+
+        Courses:
+        <select name="courses" id="">
+            <option value="Fullstack">Fullstack</option>
+            <option value="Cyber Security">Cyber Security</option>
+            <option value="python">Python</option>
+        </select><br> <br>
+        Gender: <br>
+        <input type="checkbox" name="Male" id="">Male<br>
+        <input type="checkbox" name="Female" id="">Female<br>
+        <input type="checkbox" name="Other" id="">Other<br><br>
+
+        Phone: <input type="number" placeholder="+91">
+        <input type="tel" name="" id=""><br> <br>
+
+        Address <br><textarea name="" id="" cols="70" rows="10"></textarea><br> <br>
+
+        Email: <input type="email" name="" id=""><br> <br>
+
+        Password: <input type="password" name="" id=""><br> <br>
+        Retype Password: <input type="password" name="" id=""> <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>

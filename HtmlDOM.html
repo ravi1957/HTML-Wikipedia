@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <!-- 1 -->
+
+    <!-- <p id="1">Paragraph 1</p>
+    <p id="2">Paragraph 2</p> -->
+
+    <!-- 2 -->
+
+    <!-- <div id="sec-1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, officia?
+    </div>
+
+    <div id="sec-2">
+    </div> -->
+
+    <!-- 3 -->
+
+    <!-- <div class="p4">
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+    </div>
+
+    <div id="p5">
+        Lorem ipsum dolor sit amet.
+    </div> -->
+
+    <!-- 4 -->
+
+    <!-- <div class="container">
+        <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, error.</h1>
+    </div>
+
+    <div id="div">
+        <p></p>
+    </div> -->
+
+    <!-- 5 -->
+    <div class="ctoc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, iure.
+    </div>
+
+    <p class="c1toc">
+        Hello my name is Ravinder kumar I am learning full stack web development from S&H hightech solutions.
+    </p>
+</body>
+
+<script>
+    // with id to id (done)
+    // let name = document.getElementById('1');
+    // console.log(name);
+    // document.getElementById('2').innerHTML = name.innerHTML;
+
+
+    //    with id to tag name (not done) no output
+
+    // let tname = document.getElementById('sec-1');
+    // console.log(tname);
+    // document.getElementsByTagName(div).innerHTML = tname.innerHTML;
+
+    // id (tag) to id (not done) no output
+
+    // const h = document.getElementById('p4');
+    // console.log(h);
+    // const d = document.getElementsByTagName(div);
+    // console.log(d);
+
+    // class to id (done)
+    // const container = document.getElementsByClassName('container');
+    // document.getElementById('div').innerHTML = container[0].innerHTML;
+
+    // class to class (not done) no output
+    // const cname = document.getElementsByClassName('ctoc');
+    // console.log(cname);
+    // document.getElementsByClassName('c1toc').innerHTML = cname[0].innerHTML;
+
+
+     // class to tag (not done) no output 
+     const k = document.getElementsByClassName('ctoc');
+     console.log(k);
+     document.getElementsByTagName('p').innerHTML = k[0].innerHTML;
+
+
+</script>
+
+</html>

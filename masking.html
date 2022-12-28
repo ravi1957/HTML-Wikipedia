@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: url(img/nature3.jpg) no-repeat center center/cover;
+
+    }
+
+    .nature {
+        height: 560px;
+        width: 1510px;
+    }
+
+    .mask1 {
+        -webkit-mask-image: url(img/welcome-38255.png);
+        mask-image: url(img/welcome-38255.png);
+        -webkit-mask-size: 55%;
+        mask-size: 55%;
+        -webkit-mask-position: center center;
+        mask-position: center center;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+    }
+
+    .navbar {
+        height: 100%;
+    }
+
+    ul li {
+        display: inline-block;
+        margin: 10px 30px;
+        padding: 15px 0px;
+    }
+
+    ul li a {
+        padding: 10px 2px;
+        font-size: 1.4rem;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    ul li a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+
+    <nav class="navbar">
+        <ul class="un-ol">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="mask1">
+        <img class="nature" src="img/nature.jpg" alt="Cinque Terre">
+    </div>
+
+
+
+
+</body>
+
+</html>
